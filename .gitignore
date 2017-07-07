@@ -1,0 +1,6 @@
+.Ds_Store
+venv
+*.pyc
+data-dev.sqlite
+migrations
+

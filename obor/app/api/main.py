@@ -6,6 +6,23 @@ from . import api
 from .. import db
 from ..models import Word,Article,Show,Carousel,Qrcode,User
 
+@api.route('/index/', methods=["GET"])
+def index():
+    return jsonify({
+        "共享单车":"传说中的url",
+        "航天工程":"传说中的url",
+        "北斗导航":"传说中的url",
+        "桥梁建设":"传说中的url",
+        "孔子学院":"传说中的url",
+        "高速铁路":"传说中的url",
+        "机器人":"传说中的url",
+        "无人机":"传说中的url",
+        "网购":"传说中的url",
+        "清洁能源":"传说中的url",
+        "支付宝":"传说中的url",
+        "针灸":"传说中的url"
+        })
+
 @api.route('/article/<int:kind>/', methods=["GET"])
 def get_five_article(kind):
     if kind in [1,2,3]:

@@ -201,7 +201,7 @@ def upload_img():
     if file and ('.' in file.filename and file.filename.split('.',1)[1] in ALLOWED_EXTENSIONS):
         fname = '.'.join([str(int(time.time())),file.filename.split('.',1)[1]])
         file.save(os.path.join(UPLOAD_FOLDER,fname))
-        pic_url = os.path.join('http://120.24.4.254:6677/',UPLOAD_FOLDER,fname)
+        pic_url = os.path.join('http://120.24.4.254:8822/',UPLOAD_FOLDER,fname)
         return jsonify({
             "pic_url":pic_url
         })

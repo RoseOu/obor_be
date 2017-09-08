@@ -12,51 +12,51 @@ def index():
         "index":[
             {
                 "name":"共享单车",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=1&page=0"
             },
             {
                 "name":"航天工程",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=2&page=0"
             },
             {
                 "name":"北斗导航",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=3&page=0"
             },
             {
                 "name":"桥梁建设",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=4&page=0"
             },
             {
                 "name":"孔子学院",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=5&page=0"
             },
             {
                 "name":"高速铁路",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=6&page=0"
             },
             {
                 "name":"机器人",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=7&page=0"
             },
             {
                 "name":"无人机",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=8&page=0"
             },
             {
                 "name":"网购",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=9&page=0"
             },
             {
                 "name":"清洁能源",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=10&page=0"
             },
             {
                 "name":"支付宝",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=11&page=0"
             },
             {
                 "name":"针灸",
-                "url": "传说中的url"
+                "url": "/api/word/list?sort=12&page=0"
             }
         ]
     })

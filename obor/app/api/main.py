@@ -101,7 +101,10 @@ def get_word():
     sort = int(request.args.get('sort'))
     page = int(request.args.get('page'))
     if sort in range(1,13):
-        words = Word.query.filter_by(sort=sort).limit(10).offset((page-1)*10)
+        if page>0:
+            words = Word.query.filter_by(sort=sort).limit(10).offset((page-1)*10)
+        else:
+            words = Word.query.filter_by(sort=sort)
         count = Word.query.filter_by(sort=sort).count()
         words_list = [{
                 "word_id":w.id,

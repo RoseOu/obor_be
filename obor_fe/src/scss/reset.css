@@ -1,0 +1,28 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(../img/background.png);
+    min-width: 1000px;
+    color: #1c3540;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+    color: #1c3540;
+}
+
+a:link {
+    color: #1c3540;
+}
+
+a:visited {
+    color: #1c3540;
+}
+
+a:hover {
+    color: #00bb9c;
+}

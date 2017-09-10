@@ -1,0 +1,337 @@
+{
+    "routes": [{
+        "name": "home",
+        "endpoint": "/",
+        "template": "home",
+        "async": false
+    }, {
+        "name": "manage",
+        "endpoint": "/manage",
+        "template": "manage",
+        "async": false
+    }, {
+        "name": "about",
+        "endpoint": "/about",
+        "template": "about",
+        "async": false
+    }, {
+        "name": "learn",
+        "endpoint": "/learn",
+        "template": "learn",
+        "async": false
+    }, {
+        "name": "login",
+        "endpoint": "/login",
+        "template": "login",
+        "async": false
+    }, {
+        "name": "article",
+        "endpoint": "/api/article/:Int/",
+        "async": true
+    }, {
+        "name": "show",
+        "endpoint": "/api/show/",
+        "async": true
+    }, {
+        "name": "carousel",
+        "endpoint": "/api/carousel/",
+        "async": true
+    }, {
+        "name": "userList",
+        "endpoint": "/api/user/list/",
+        "async": true
+    }, {
+        "name": "userAdd",
+        "method": "post",
+        "endpoint": "/api/user/add/",
+        "async": true
+    }, {
+        "name": "adminLogin",
+        "method": "post",
+        "endpoint": "/api/admin/login/",
+        "async": true
+    }, {
+        "name": "uploadPic",
+        "method": "post",
+        "endpoint": "/api/upload/img/",
+        "async": true
+    }, {
+        "name": "userDelete",
+        "method": "post",
+        "endpoint": "/api/user/delete/",
+        "async": true
+    }, {
+        "name": "wordDelete",
+        "method": "post",
+        "endpoint": "/api/word/delete/",
+        "async": true
+    }, {
+        "name": "uploaderWei",
+        "method": "post",
+        "endpoint": "/api/qrcode/",
+        "async": true
+    }, {
+        "name": "uploadtech",
+        "method": "post",
+        "endpoint": "/api/show/add/",
+        "async": true
+    }, {
+        "name": "addBanner",
+        "method": "post",
+        "endpoint": "/api/carousel/add/",
+        "async": true
+    }, {
+        "name": "addArticle",
+        "method": "post",
+        "endpoint": "/api/article/add/",
+        "async": true
+    }, {
+        "name": "addWord",
+        "method": "post",
+        "endpoint": "/api/word/add/",
+        "async": true
+    }, {
+        "name": "api.feed",
+        "endpoint": "/api/word/list",
+        "queryKey": {
+            "pagination": "page",
+            "sort": "sort"
+        },
+        "async": true
+    }],
+    "data": {
+        "adminLogin": {
+            "id": 3
+        },
+        "addWord": {
+            "added": 2
+        },
+        "api.feed": {
+            "count": 25,
+            "words": [{
+                "word_id": 1,
+                "Chinese": "商务座",
+                "Chinese_audio": "http://oh7c5eomu.bkt.clouddn.com/Bike01E.mp3",
+                "English": "business class",
+                "English_audio": "http://oh7c5eomu.bkt.clouddn.com/Bike01E.mp3",
+                "Russian": "Бизнес сиденье",
+                "Russian_audio": "http://oh7c5eomu.bkt.clouddn.com/Bike01E.mp3",
+                "Arabic": "مقعد الأعمال",
+                "Arabic_audio": "http://oh7c5eomu.bkt.clouddn.com/Bike01E.mp3",
+                "German": "Geschäftssitz",
+                "German_audio": "http://oh7c5eomu.bkt.clouddn.com/Bike01E.mp3",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "减速",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "slow down",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "замедлять",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "إبطاء",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "verlangsamen",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "测试期间",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "test period",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Во время испытания",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "أثناء الاختبار",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Prüfzeit",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "技术可靠性",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Technical reliability",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Техническая надежность",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "الموثوقية التقنية",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Technische Zuverlässigkeit",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "双速制",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Two-speed system",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Система Двухскоростной",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "نظام سرعتين",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Zwei Geschwindigkeitssystem",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "运行图",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Run the map",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "схема",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "رسم بياني",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Diagramm",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "城际高铁",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "intercity high-speed rail",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Междугородные высокоскоростные железные дороги",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "بين المدن قطار فائق السرعة",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Intercity- Hochgeschwindigkeitsstrecke",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "铁路专线",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Railway line",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Железнодорожная линия",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "الحديديةخطللسكك",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Eisenbahnlinie",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "直达列车",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Direct train",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Прямые поезда",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "قطارات مباشرة",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "direkte Bahn",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "交错停车",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Staggered parking",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Staggered парковка",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "مواقف متداخلة",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Versetzte Park",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }, {
+                "word_id": 1,
+                "Chinese": "双速制",
+                "Chinese_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%E5%95%86%E5%8A%A1%E5%BA%A7&tl=zh-CN&total=1&idx=0&textlen=3&tk=755118.908354&client=t&prev=input",
+                "English": "Two-speed system",
+                "English_ audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=business%20class&tl=en&total=1&idx=0&textlen=14&tk=277263.156387&client=t&prev=input",
+                "Russian": "Система Двухскоростной",
+                "Russian_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5&tl=ru&total=1&idx=0&textlen=14&tk=530214.937674&client=t&prev=input",
+                "Arabic": "نظام سرعتين",
+                "Arabic_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=%D9%85%D9%82%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84&tl=ar&total=1&idx=0&textlen=12&tk=393616.22652&client=t&prev=input",
+                "German": "Zwei Geschwindigkeitssystem",
+                "German_audio": "https://translate.google.com.hk/translate_tts?ie=UTF-8&q=Gesch%C3%A4ftssitz&tl=de&total=1&idx=0&textlen=13&tk=360002.206766&client=t&prev=input",
+                "video_url": "hahah"
+            }]
+        },
+        "addBanner": {
+            "added": 12
+        },
+        "addArticle": {
+            "added": 12
+        },
+        "uploadtech": {
+            "added": 12
+        },
+        "uploaderWei": {
+            "status": 200
+        },
+        "uploadPic": {
+            "img_url": "http://www.fotor.com/images2/features/photo_effects/e_bw.jpg"
+        },
+        "userAdd": {
+            "id": 2015210889
+        },
+        "userList": [{
+            "username": "小明",
+            "id": 2015210881
+        }, {
+            "username": "小徐",
+            "id": 2015210882
+        }, {
+            "username": "小雅",
+            "id": 2015210883
+        }, {
+            "username": "小静",
+            "id": 2015210884
+        }, {
+            "username": "小区",
+            "id": 2015210885
+        }, {
+            "username": "小诗",
+            "id": 2015210886
+        }],
+        "userDelete": {
+            "deleted": "2015210885"
+        },
+        "wordDelete": {
+            "deleted": 2
+        },
+        "article": [{
+            "title": "绿色化一带一路经贸合作大会在京召开",
+            "date": "06-03",
+            "article_url": "http://business.sohu.com/20170529/n494952089.shtml"
+        }, {
+            "title": "西班牙政府和商界看好一带一路商机",
+            "date": "06-03",
+            "article_url": "http://business.sohu.com/20170529/n494952089.shtml"
+        }, {
+            "title": "中国一带一路拉动全球商品需求，铜和铁首当其冲",
+            "date": "06-02",
+            "article_url": "http://business.sohu.com/20170529/n494952089.shtml"
+        }, {
+            "title": "一带一路上中国名片，中国元素闪耀蒙内铁路",
+            "date": "06-02",
+            "article_url": "http://business.sohu.com/20170529/n494952089.shtml"
+        }, {
+            "title": "一带一路为农业发展带来新机遇",
+            "date": "06-02",
+            "article_url": "http://business.sohu.com/20170529/n494952089.shtml"
+        }],
+        "show": {
+            "img_url": "http://www.ztsschina.com/20130429/2.jpg"
+        },
+        "carousel": [{
+            "img_url": "http://image.nbd.com.cn/uploads/articles/thumbnails/376224/QQ__20170627084319.thumb_head.jpg",
+            "title": "首届中国临空经济“一带一路”生态发展论坛即将开幕",
+            "article_url": "http://www.nbd.com.cn/articles/2017-06-27/1121342.html"
+        }, {
+            "img_url": "http://pic3.dwnews.net/20170625/da503f9f0cf585b5e32d84ba1193033d_w.jpg",
+            "title": "特朗普为何搭一带一路的顺风车",
+            "article_url": "http://global.dwnews.com/news/2017-06-25/59821840.html"
+        }, {
+            "img_url": "http://pic2.dwnews.net/20170613/7336db8e19d5a4a3f21f778a80bf6fd5_w.jpg",
+            "title": "大转变 新加坡为一带一路提供金融支持",
+            "article_url": "http://global.dwnews.com/news/2017-06-12/59819770.html"
+        }]
+    }
+}

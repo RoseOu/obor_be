@@ -3,4 +3,5 @@ venv
 *.pyc
 data-dev.sqlite
 migrations
+node_modules
 

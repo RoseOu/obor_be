@@ -77,6 +77,8 @@ def add_word():
             word.german = request.get_json().get("German")
         if request.get_json().get("German_audio") != "":
             word.german_audio = request.get_json().get("German_audio")
+        if request.get_json().get("video_url") != "":
+            word.video_url = request.get_json().get("video_url")
         db.session.add(word)
         db.session.commit()
         return jsonify({

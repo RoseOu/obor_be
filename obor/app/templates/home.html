@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>一带一路</title>
+    <meta charset="UTF-8">
+    <title>一带一路</title>
+    <link rel="stylesheet" href="../../static/css/index.css">
 </head>
+
 <body>
-	<div id="index"></div>
-	<script src="../../static/js/main.js"></script>
+    <div class="titleBox">
+    </div>
+    <div class="keywordsBox">
+        <div class="keywordsTitle"></div>
+        <div class="timeline">
+            <div class="_timeline">
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">针灸</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">北斗导航</div>
+                    </a>
+                </div>
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">航天工程</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">孔子学院</div>
+                    </a>
+                </div>
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">网购</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">高速铁路</div>
+                    </a>
+                </div>
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">机器人</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">无人机</div>
+                    </a>
+                </div>
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">清洁能源</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">支付宝</div>
+                    </a>
+                </div>
+                <div class="_dot">
+                    <a href="/main/learn/">
+                        <div class="keylink">共享单车</div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
+                <div class="_dot a">
+                    <a href="/main/learn/">
+                        <div class="dot"></div>
+                        <div class="keylink">桥梁制造</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="index"></div>
+    <div class="cpyright">Powered By 华中师范大学计算机学院</div>
+    <div class="bottom">
+        <div class="link mright">
+            <a href="/main/about/" class="rlink load">关于我们</a>
+            <a href="/main/about/" class="rlink">意见反馈</a>
+        </div>
+        <div class="link">
+            <img class="erwei" id="erwei">
+            <div class="rlink load">下载 APP</div>
+        </div>
+    </div>
+    <script src="../../static/js/main.js"></script>
+    <script>
+        var erwei = document.getElementById('erwei')
+        fetch('/api/qrcode/').then(value => {
+            return value.json()
+        }).then(value => {
+            erwei.src = value.img_url
+        })
+    </script>
 </body>
+
 </html>
